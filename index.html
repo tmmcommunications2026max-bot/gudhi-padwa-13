@@ -9,26 +9,19 @@
 <meta property="og:description" content="Ticketing, Buy Membership and Volunteering link">
 <meta property="og:url" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg">
-<meta property="og:image:secure_url" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg">
+<meta property="og:image" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg?v=2">
+<meta property="og:image:secure_url" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg?v=2">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Gudhi Padwa & Maharashtra Din Celebration 2026 – Triveni Mitra Mandal">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg">
+<meta name="twitter:image" content="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-thumbnail-6.jpg?v=2">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    /*
-      Complement of #F8823C (vivid warm orange):
-      R: 255-248=7   G: 255-130=125   B: 255-60=195
-      Raw complement → #077DC3  (sky/ocean blue)
-      Panel: deep ocean blue  #044E7A → #0663A0
-      Border accent: bright sky blue  #1A9FE8
-    */
     --panel-bg:        #033D60;
     --panel-bg-mid:    #055280;
     --panel-border:    #1A9FE8;
@@ -38,8 +31,7 @@
     --blue-muted:      #5BAAD8;
     --blue-glow:       rgba(26, 159, 232, 0.18);
 
-    /* Buttons — tuned to blaze on deep ocean blue */
-    --btn-orange-from: #F8823C;      /* source colour — explosive on blue */
+    --btn-orange-from: #F8823C;
     --btn-orange-to:   #C85A10;
     --btn-orange-bdr:  #FFAD72;
     --btn-orange-text: #1A0800;
@@ -105,7 +97,6 @@
     object-fit: contain;
   }
 
-  /* ── PANEL: deep ocean blue — complement of #F8823C ── */
   .btn-panel {
     background: linear-gradient(180deg, var(--panel-bg) 0%, var(--panel-bg-mid) 100%);
     border-top: 3px solid var(--panel-border);
@@ -121,7 +112,6 @@
   }
   .btn-panel.visible { animation-play-state: running; }
 
-  /* ── Divider ── */
   .divider {
     display: flex;
     align-items: center;
@@ -140,7 +130,6 @@
     line-height: 1;
   }
 
-  /* ── Event time box ── */
   .event-time {
     display: flex;
     flex-direction: column;
@@ -169,7 +158,6 @@
     white-space: nowrap;
   }
 
-  /* ── Early bird banner ── */
   .early-bird {
     display: flex;
     align-items: center;
@@ -232,7 +220,6 @@
   .btn:hover  { transform: translateY(-2px); filter: brightness(1.10); }
   .btn:active { transform: scale(0.97); }
 
-  /* Tickets — pure #F8823C orange (source colour; maximum contrast on blue) */
   .btn-tickets {
     background: linear-gradient(135deg, var(--btn-orange-from) 0%, var(--btn-orange-to) 50%, var(--btn-orange-from) 100%);
     border: 2px solid var(--btn-orange-bdr);
@@ -242,7 +229,6 @@
   }
   .btn-tickets:hover { box-shadow: 0 8px 32px rgba(220, 100, 20, 0.75), inset 0 1px 0 rgba(255,255,255,0.28); }
 
-  /* Member — rich warm gold (analogous to orange, reads distinctly on blue) */
   .btn-member {
     background: linear-gradient(135deg, var(--btn-gold-from) 0%, var(--btn-gold-to) 50%, var(--btn-gold-from) 100%);
     border: 2px solid var(--btn-gold-bdr);
@@ -252,7 +238,6 @@
   }
   .btn-member:hover { box-shadow: 0 8px 30px rgba(180, 120, 0, 0.68), inset 0 1px 0 rgba(255,255,255,0.20); }
 
-  /* Volunteer — deep emerald (cool-warm-green triad; grounding anchor) */
   .btn-volunteer {
     background: linear-gradient(135deg, var(--btn-emerald-from) 0%, var(--btn-emerald-to) 50%, var(--btn-emerald-from) 100%);
     border: 2px solid var(--btn-emerald-bdr);
@@ -313,7 +298,7 @@
 
   <img class="poster-img"
        id="flyer"
-       src="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-flyer-2.jpg"
+       src="https://tmmcommunications2026max-bot.github.io/gudhi-padwa-13/gudhi-padwa-flyer-2.jpg?v=2"
        alt="Gudhi Padwa & Maharashtra Din Celebration 2026"
        loading="eager"
        decoding="async">
